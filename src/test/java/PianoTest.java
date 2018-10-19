@@ -11,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano("Kawai", "String", "Wood", "White", 500.00, 600.00, PianoType.Spinet, 100);
+        piano = new Piano("Kawai", "String", "Wood", "White", "Tiiing",500.00, 600.00, PianoType.Spinet, 100);
     }
 
     @Test
@@ -35,6 +35,9 @@ public class PianoTest {
     }
 
     @Test
+    public void playsSound() { assertEquals("Tiiing", piano.getPlaySound());}
+
+    @Test
     public void hasBuyPrice(){
         assertEquals(500.00, piano.getBuyPrice(),0.01);
     }
@@ -53,5 +56,8 @@ public class PianoTest {
     public void hasNoOfStrings(){
         assertEquals(100, piano.getNoOfChords());
     }
+
+    @Test
+    public void canPlay(){ assertEquals("Piano plays: Tiiing", piano.play());}
 
 }

@@ -1,18 +1,22 @@
 package instruments;
 
-public abstract class Instrument {
+import interfaces.IPlay;
+
+public abstract class Instrument implements IPlay {
     private String name;
     private String material;
     private String color;
     private String type;
+    private String playSound;
     private double buyPrice;
     private double sellPrice;
 
-    public Instrument(String name, String type, String material, String color, double buyPrice, double sellPrice){
+    public Instrument(String name, String type, String material, String color, String playSound, double buyPrice, double sellPrice){
         this.name = name;
         this.material = material;
         this.color = color;
         this.type = type;
+        this.playSound = playSound;
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
     }
@@ -33,6 +37,8 @@ public abstract class Instrument {
         return type;
     }
 
+    public String getPlaySound() { return playSound; }
+
     public double getBuyPrice() {
         return buyPrice;
     }
@@ -40,4 +46,6 @@ public abstract class Instrument {
     public double getSellPrice() {
         return sellPrice;
     }
+
+    public String play(){ return this.playSound; }
 }

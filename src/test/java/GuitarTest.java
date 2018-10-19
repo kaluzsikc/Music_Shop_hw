@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Yamaha500", "String", "Mahogany", "red", 100.00, 200.00, GuitarType.Acoustic, 12);
+        guitar = new Guitar("Yamaha500", "String", "Mahogany", "red", "Draaaam", 100.00, 200.00, GuitarType.Acoustic, 12);
     }
 
     @Test
@@ -30,9 +30,10 @@ public class GuitarTest {
     }
 
     @Test
-    public void hasColor(){
-        assertEquals("red", guitar.getColor());
-    }
+    public void hasColor(){ assertEquals("red", guitar.getColor()); }
+
+    @Test
+    public void playsSound() { assertEquals("Draaaam", guitar.getPlaySound());}
 
     @Test
     public void hasBuyPrice(){
@@ -54,5 +55,6 @@ public class GuitarTest {
         assertEquals(12, guitar.getNoOfStrings());
     }
 
-
+    @Test
+    public void canPlay(){ assertEquals("Guitar plays: Draaaam", guitar.play());}
 }
