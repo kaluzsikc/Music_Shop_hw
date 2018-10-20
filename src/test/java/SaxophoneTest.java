@@ -11,7 +11,7 @@ public class SaxophoneTest {
 
     @Before
     public void before(){
-        saxophone = new Saxophone("Adolphe Sax ", "Woodwind", "Brass", "Gold", "Taaaada",200.00, 300.00, SaxophoneType.Alto, 5);
+        saxophone = new Saxophone("Adolphe Sax ", "Woodwind", "Brass", "Gold", "Taaaada",200.00, 400.00, SaxophoneType.Alto, 5);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class SaxophoneTest {
 
     @Test
     public void hasSellPrice(){
-        assertEquals(300.00, saxophone.getSellPrice(), 0.01);
+        assertEquals(400.00, saxophone.getSellPrice(), 0.01);
     }
 
     @Test
@@ -59,4 +59,9 @@ public class SaxophoneTest {
 
     @Test
     public void canPlay(){ assertEquals("Saxophone plays: Taaaada", saxophone.play());}
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(100, saxophone.calculateMarkup(),0.01);
+    }
 }

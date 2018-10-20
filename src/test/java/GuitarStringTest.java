@@ -12,7 +12,7 @@ public class GuitarStringTest {
 
     @Before
     public void before(){
-        guitarString = new GuitarString("Color Guitar String", "Electronic", "Waxun", 5.50, 8);
+        guitarString = new GuitarString("Color Guitar String", "Electronic", "Waxun", 5.50, 11);
     }
 
     @Test
@@ -37,6 +37,11 @@ public class GuitarStringTest {
 
     @Test
     public void hasSellPrice(){
-        assertEquals(8, guitarString.getSellPrice(), 0.01);
+        assertEquals(11, guitarString.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(100, guitarString.calculateMarkup(),0.01);
     }
 }

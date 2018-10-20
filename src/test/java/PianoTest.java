@@ -60,4 +60,7 @@ public class PianoTest {
     @Test
     public void canPlay(){ assertEquals("Piano plays: Tiiing", piano.play());}
 
+    @Test
+    public void canCalculateMarkup(){ assertEquals(20, piano.calculateMarkup(),0.01); }
+
 }

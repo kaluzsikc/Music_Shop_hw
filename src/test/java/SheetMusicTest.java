@@ -10,7 +10,7 @@ public class SheetMusicTest {
 
     @Before
     public void before(){
-        sheetMusic = new SheetMusic("Paper Concept 219560", "Kraft Paper", "Paper Concept", 5.23, 7);
+        sheetMusic = new SheetMusic("Paper Concept 219560", "Kraft Paper", "Paper Concept", 5.00, 7.50);
     }
 
     @Test
@@ -30,11 +30,16 @@ public class SheetMusicTest {
 
     @Test
     public void hasBuyPrice(){
-        assertEquals(5.23, sheetMusic.getBuyPrice(),0.01);
+        assertEquals(5.00, sheetMusic.getBuyPrice(),0.01);
     }
 
     @Test
     public void hasSellPrice(){
-        assertEquals(7, sheetMusic.getSellPrice(), 0.01);
+        assertEquals(7.50, sheetMusic.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(50, sheetMusic.calculateMarkup(),0.01);
     }
 }

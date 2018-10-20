@@ -10,7 +10,7 @@ public class DrumStickTest {
 
     @Before
     public void before(){
-        drumStick = new DrumStick("Stagg SF34", "Electronic", "Zantec", 10.64, 20);
+        drumStick = new DrumStick("Stagg SF34", "Electronic", "Zantec", 10.00, 20);
     }
 
     @Test
@@ -30,11 +30,16 @@ public class DrumStickTest {
 
     @Test
     public void hasBuyPrice(){
-        assertEquals(10.64, drumStick.getBuyPrice(),0.01);
+        assertEquals(10.00, drumStick.getBuyPrice(),0.01);
     }
 
     @Test
     public void hasSellPrice(){
         assertEquals(20, drumStick.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(100, drumStick.calculateMarkup(),0.01);
     }
 }

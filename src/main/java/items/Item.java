@@ -1,6 +1,8 @@
 package items;
 
-public abstract class Item {
+import interfaces.ISell;
+
+public abstract class Item implements ISell {
 
     private String name;
     private String type;
@@ -35,4 +37,6 @@ public abstract class Item {
     public double getSellPrice() {
         return sellPrice;
     }
+
+    public double calculateMarkup(){ return ((getSellPrice() - getBuyPrice())/getBuyPrice()) * 100; }
 }
