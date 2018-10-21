@@ -35,6 +35,13 @@ public class Shop{
     }
 
 
+    public int getProfit() {
+        int profit = 0 ;
 
+        for (ISell item: stock) {
+            profit += item.calculateMarkup();
+        }
+
+        return profit;
+    }
 }
-

@@ -19,7 +19,7 @@ public class ShopTest {
     public void before(){
         shop = new Shop("Ray's Music Exchange");
         guitar = new Guitar("Yamaha500", "String", "Mahogany", "red", "Draaaam", 100.00, 200.00, GuitarType.Acoustic, 12);
-        drumStick = new DrumStick("Stagg SF34", "Electronic", "Zantec", 10.64, 20);
+        drumStick = new DrumStick("Stagg SF34", "Electronic", "Zantec", 10.00, 15);
     }
 
     @Test
@@ -55,7 +55,14 @@ public class ShopTest {
         assertEquals(2, shop.getStockCount());
     }
 
-
+    @Test
+    public void canGetTotalProfit(){
+        shop.addToStock(guitar);
+        shop.addToStock(guitar);
+        shop.addToStock(drumStick);
+        assertEquals(3, shop.getStockCount());
+        assertEquals(250, shop.getProfit());
+    }
 
 
 }

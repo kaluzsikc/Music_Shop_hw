@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9a1436c-7745-430c-975d-52401d7cd34c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/instruments/Instrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/interfaces/ISell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/interfaces/ISell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/musicShop/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/DrumStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/DrumStick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/musicShop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicShop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrumStickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DrumStickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaxophoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxophoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,23 +30,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="66" />
+          <entry key="java" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="3514" />
+          <entry key="java" value="3661" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3514" />
+          <entry key="JAVA" value="3661" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -68,20 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GuitarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-497">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,13 +83,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="320">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1206#1207#0" expanded="true" />
                 <element signature="e#1284#1285#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Piano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -166,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="320">
+              <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/musicShop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="396">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="76">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -525,9 +506,7 @@
         <option value="$PROJECT_DIR$/src/main/java/instruments/Saxophone.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/DrumStick.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/IPlay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/musicShop/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/PianoTest.java" />
@@ -536,6 +515,8 @@
         <option value="$PROJECT_DIR$/src/test/java/GuitarStringTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/musicShop/Shop.java" />
       </list>
     </option>
   </component>
@@ -639,8 +620,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540028539951" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540149949478" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -656,7 +637,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in musicshop_test">
+  <component name="RunManager" selected="JUnit.ShopTest.canGetTotalProfit">
     <configuration name="All in musicshop_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicshop_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -685,16 +666,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaxophoneTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicshop_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SaxophoneTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SheetMusicTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicshop_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -705,20 +676,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canGetTotalProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicshop_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetTotalProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.GuitarStringTest.canCalculateMarkup" />
-      <item itemvalue="JUnit.SaxophoneTest.canCalculateMarkup" />
       <item itemvalue="JUnit.DrumStickTest.canCalculateMarkup" />
       <item itemvalue="JUnit.SheetMusicTest.canCalculateMarkup" />
       <item itemvalue="JUnit.All in musicshop_test" />
+      <item itemvalue="JUnit.ShopTest.canGetTotalProfit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canGetTotalProfit" />
         <item itemvalue="JUnit.All in musicshop_test" />
         <item itemvalue="JUnit.SheetMusicTest.canCalculateMarkup" />
         <item itemvalue="JUnit.GuitarStringTest.canCalculateMarkup" />
         <item itemvalue="JUnit.DrumStickTest.canCalculateMarkup" />
-        <item itemvalue="JUnit.SaxophoneTest.canCalculateMarkup" />
       </list>
     </recent_temporary>
   </component>
@@ -736,12 +717,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest_canCalculateMarkup - 2018.10.20 at 10h 38m 46s.xml">
-      <configuration name="GuitarTest.canCalculateMarkup" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PianoTest_canCalculateMarkup - 2018.10.20 at 10h 38m 59s.xml">
-      <configuration name="PianoTest.canCalculateMarkup" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PianoTest_canCalculateMarkup - 2018.10.20 at 10h 39m 12s.xml">
       <configuration name="PianoTest.canCalculateMarkup" configurationId="JUnit" />
     </history-entry>
@@ -765,6 +740,12 @@
     </history-entry>
     <history-entry file="All_in_musicshop_test - 2018.10.20 at 10h 41m 51s.xml">
       <configuration name="All in musicshop_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_musicshop_test - 2018.10.20 at 10h 43m 51s.xml">
+      <configuration name="All in musicshop_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest_canGetTotalProfit - 2018.10.21 at 20h 16m 31s.xml">
+      <configuration name="ShopTest.canGetTotalProfit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -854,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Piano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IPlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -890,18 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,25 +941,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/musicShop/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Piano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="418">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="320">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/musicShop/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1056,7 +1037,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>musicshop_test|musicshop</last-edited>
+          <last-edited>musicshop_main|musicshop</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
